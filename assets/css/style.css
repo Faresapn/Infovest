@@ -178,7 +178,7 @@ a.navbar-item.is-active,
 }
 
 .text-home>h1 {
-    font-family: Inter UI;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 2.8vw;
@@ -188,12 +188,11 @@ a.navbar-item.is-active,
 }
 
 .text-home>p {
-    font-family: Inter UI;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 20px;
     line-height: 35px;
-    letter-spacing: 0.5px;
     color: #545454;
 }
 
@@ -232,10 +231,6 @@ a.navbar-item.is-active,
         width: 70%;
         float: left;
         margin-left: 20px;
-    }
-    .row-left {
-        margin-left: 20px;
-        width: 80%;
     }
     .text-home>h1 {
         font-size: 14px;
@@ -351,5 +346,40 @@ a.navbar-item.is-active,
         border: 0.5px solid;
         border-color: #F2F2F2;
         width: 250px;
+    }
+    .row-left {
+        float: left;
+        width: 30%;
+        height: 500px;
+    }
+    .set-left {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .ilustrasi {
+        margin-top: 120px;
+        width: 75%;
+        float: left;
+        margin-left: 50px;
+    }
+    .row-left {
+        margin-left: 40px;
+        width: 80%;
+        float: left;
+        height: 500px;
+    }
+    .text-home>p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .text-home>p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 20px;
+        color: #545454;
+        width: 100%;
     }
 }
