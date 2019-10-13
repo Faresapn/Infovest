@@ -197,7 +197,7 @@ a.navbar-item.is-active,
 }
 
 .btn-full {
-    width: 220px;
+    width: 250px;
     height: 45px;
     margin-top: 35px;
     border: none;
@@ -206,7 +206,7 @@ a.navbar-item.is-active,
     border-radius: 5px;
 }
 
-@media screen and (max-width: 1206px) {
+@media (min-width: 781px) and (max-width: 1206px) {
     .navbar>.container {
         display: block;
     }
@@ -233,11 +233,11 @@ a.navbar-item.is-active,
         margin-left: 20px;
     }
     .text-home>h1 {
-        font-size: 14px;
+        font-size: 24px;
         line-height: 30px !important;
     }
     .text-home>p {
-        font-size: 3vw;
+        font-size: 16px;
     }
     .btn-full {
         width: 100%;
@@ -249,10 +249,10 @@ a.navbar-item.is-active,
     }
     .ilustrasi {
         float: right;
-        width: 30%;
+        width: 40%;
     }
     .set-right {
-        margin-right: 9%;
+        margin-right: 12%;
     }
     .row-left {
         float: left;
@@ -264,7 +264,7 @@ a.navbar-item.is-active,
     }
 }
 
-@media screen and (min-width: 1206px) {
+@media screen and (min-width: 1207px) {
     .navbar,
     .navbar-menu,
     .navbar-start,
@@ -381,5 +381,9 @@ a.navbar-item.is-active,
         line-height: 20px;
         color: #545454;
         width: 100%;
+    }
+    .btn-full {
+        width: 250px;
+        margin-top: 20px;
     }
 }
