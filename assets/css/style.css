@@ -165,12 +165,16 @@ a.navbar-item.is-active,
 
 .row-left {
     float: left;
-    width: 30%;
+    width: 35%;
     height: 500px;
 }
 
+.row-top {
+    margin-top: 80px;
+}
+
 .set-left {
-    margin-left: 14%;
+    margin-left: 15%;
 }
 
 .ilustrasi>img {
@@ -182,9 +186,11 @@ a.navbar-item.is-active,
     font-style: normal;
     font-weight: bold;
     font-size: 2.8vw;
+    width: 450px;
     letter-spacing: 0.5px;
     color: #091932;
     line-height: 70px !important;
+    line-height: 60px;
 }
 
 .text-home>p {
@@ -257,6 +263,7 @@ a.navbar-item.is-active,
     .row-left {
         float: left;
         width: 30%;
+        margin-top: 80px;
         height: 500px;
     }
     .set-left {
@@ -350,6 +357,7 @@ a.navbar-item.is-active,
     .row-left {
         float: left;
         width: 30%;
+        margin-top: 80px;
         height: 500px;
     }
     .set-left {
@@ -385,5 +393,11 @@ a.navbar-item.is-active,
     .btn-full {
         width: 250px;
         margin-top: 20px;
+    }
+    .text-home>h1 {
+        font-size: 20px;
+    }
+    .row-top {
+        margin-top: 10px;
     }
 }
