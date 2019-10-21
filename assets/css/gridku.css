@@ -91,36 +91,48 @@
     .container {
         max-width: 540px;
     }
+<<<<<<< HEAD
     .cont-header{
         max-width: 576px;
     }
+=======
+>>>>>>> 9d7bee9f42540e4e5a84e83b96d84437b84da597
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
+<<<<<<< HEAD
     .cont-header{
         max-width: 768px;
     }
+=======
+>>>>>>> 9d7bee9f42540e4e5a84e83b96d84437b84da597
 }
 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
+<<<<<<< HEAD
     .cont-header{
         max-width: 992px;
     }
+=======
+>>>>>>> 9d7bee9f42540e4e5a84e83b96d84437b84da597
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
+<<<<<<< HEAD
     .cont-header{
         max-width: 1440px;
     }
+=======
+>>>>>>> 9d7bee9f42540e4e5a84e83b96d84437b84da597
 }
 
 .rounded {
