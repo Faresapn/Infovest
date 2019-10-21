@@ -1,0 +1,138 @@
+.cont-header{
+  background-image: url(/assets/img/Group\ 13.png);
+  height: 515px;
+  background-size:cover; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont-header h1{
+  font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+.cont-header p{
+  font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #FFFFFF;
+}
+.cont-text{
+  padding: 160px;
+}
+.container-card{
+  display: flex;
+  margin: 150px auto 0 auto;
+  justify-content: space-around;
+}
+.card{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card h2{
+  margin-top: 40px;
+  font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+color: #000000;
+}
+.card p{
+  margin-top:30px; 
+  font-weight: normal;
+font-size: 20px;
+line-height: 147.1%;
+letter-spacing: 0.01em;
+color: #000000;
+}
+.card p,.card h2{
+  margin-left: 20px;
+}
+.card:nth-child(2){
+  padding: 0 30px 0 30px;
+}
+
+.container-card2{
+  display: flex;
+  margin: 0 auto 0 auto;
+
+}
+.content-card{
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content-card:nth-child(2){
+  margin: 35px 0;
+}
+.content-card h2{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.content-card p{
+  font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #A3A3A3;
+margin-top: 15px;
+}
+.content-card img{
+  margin-right: 15px;
+}
+.judul-komunitas{
+  margin: 200px 0 70px 8.3%;
+}
+.akhir-komunitas a{
+  font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+  float: right;
+  margin: 50px 175px 0 0;
+}
+.space-around{
+  justify-content: space-around;
+}
+.card-wrap:nth-child(2){
+margin: 0 40px 0 40px;
+}
+.card-wrap{
+  box-shadow: 0px 9px 18px #EDEDED;
+  height: 515px;
+}
+.card-wrap:hover{
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+  box-shadow: 0px 9px 18px rgb(238, 234, 234);
+}
+.card-isi{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 17px;
+}
+.card-isi h3{
+  font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+color: #000000;
+margin-bottom: 15px;
+}
+.card-isi p{
+  font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #898989;
+margin-bottom: 25px;
+}
+.card-isi button{
+  border: 1px solid #6A92DD;
+box-sizing: border-box;
+border-radius: 9px;
+background-color: transparent;
+width: 109px;
+height: 45px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #6493EB;
+float: right;
+cursor: pointer;
+}
