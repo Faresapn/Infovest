@@ -27,6 +27,12 @@
     max-width: 16.666667%;
 }
 
+.col-md-2-2 {
+    -ms-flex: 0 0 18.666667%;
+    flex: 0 0 18.666667%;
+    max-width: 18.666667%;
+}
+
 .col-md-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
@@ -114,4 +120,9 @@
 .rounded {
     border-radius: 100em;
     height: 50px;
+}
+
+.rounded-2 {
+    border-radius: 100em;
+    height: 40px;
 }
