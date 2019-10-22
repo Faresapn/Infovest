@@ -268,8 +268,21 @@ a.navbar-item.is-active,
     background-color: white;
 }
 
+.text-10 {
+    font-size: 10px;
+}
+
+.text-10px {
+    font-size: 12px;
+    color: #C4C4C4;
+}
+
 .text-12px {
     font-size: 12px;
+}
+
+.text-14px {
+    font-size: 14px;
 }
 
 .text-normal {
@@ -781,6 +794,14 @@ a.navbar-item.is-active,
 
 .align-center {
     text-align: center;
+}
+
+.book {
+    width: 120%;
+}
+
+.book:hover {
+    transform: scale(1.2);
 }
 
 .pointer {
