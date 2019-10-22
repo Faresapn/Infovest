@@ -1,3 +1,9 @@
+html, body,*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .cont-header{
   background-image: url(/assets/img/Group\ 13.png);
   height: 515px;
@@ -25,9 +31,11 @@ color: #FFFFFF;
   display: flex;
   margin: 150px auto 0 auto;
   justify-content: space-around;
+  flex-direction: row;
 }
 .card{
   font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
 }
 .card h2{
   margin-top: 40px;
@@ -54,8 +62,8 @@ color: #000000;
 .container-card2{
   display: flex;
   margin: 0 auto 0 auto;
-
 }
+
 .content-card{
   display: inline-flex;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,16 +86,24 @@ margin-top: 15px;
 }
 .content-card img{
   margin-right: 15px;
+  max-width: 366px;
 }
-.judul-komunitas{
+.judul-komunitas,.judul-event{
   margin: 200px 0 70px 8.3%;
 }
-.akhir-komunitas a{
+
+.akhir-komunitas a,.akhir-event a{
   font-weight: normal;
 font-size: 26px;
 line-height: 32px;
   float: right;
-  margin: 50px 175px 0 0;
+  margin: 50px 13% 0 0;
+}
+.container-card3{
+  display: flex;
+  margin: 0 auto 0 auto;
+  height: 550px;
+  width: 100%;
 }
 .space-around{
   justify-content: space-around;
@@ -97,10 +113,11 @@ margin: 0 40px 0 40px;
 }
 .card-wrap{
   box-shadow: 0px 9px 18px #EDEDED;
-  height: 515px;
+  height: 520px;
+  width: 345px;
 }
 .card-wrap:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all .2s ease-in-out;
   box-shadow: 0px 9px 18px rgb(238, 234, 234);
 }
@@ -135,4 +152,79 @@ line-height: 28px;
 color: #6493EB;
 float: right;
 cursor: pointer;
+}
+
+@media all and (max-width: 989px){
+  .card img{
+    max-width: 250px;
+  }
+  .container-card3{
+    flex-direction: column;
+    height: auto;
+    overflow-y:hidden; 
+  }
+  .card-wrap:nth-child(1),
+  .card-wrap:nth-child(2),
+  .card-wrap:nth-child(3){
+    margin: 0px auto 70px auto;
+    }
+  .judul-komunitas{
+    margin: 170px 0 50px 41%;
+  }
+  .judul-event{
+    margin: 140px 0 50px 45%;
+  }
+  .card-wrap{
+    box-shadow: 0px 9px 18px #EDEDED;
+    height: 575px;
+    width: 400px;
+  }
+  
+}
+
+@media all and (max-width: 768px){
+  .container-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .card:nth-child(1),
+  .card:nth-child(2),
+  .card:nth-child(3){
+    margin: 0 auto 80px auto;
+  }
+  .card h2{
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+  .card p{
+    margin: 5px 0 0 0;
+    text-align: center;
+  }
+  .card img{
+    max-width: 320px;
+  }
+  .cont-header h1{
+    font-weight: bold;
+  font-size: 32px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .cont-header p{
+    font-weight: normal;
+  font-size: 20px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .judul-komunitas{
+    margin: 50px 0 50px 41%;
+  }
+  .judul-event{
+    margin: 140px 0 50px 45%;
+  }
+}
+
+@media all and (max-width: 575px){
+
 }
