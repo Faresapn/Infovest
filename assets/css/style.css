@@ -238,6 +238,13 @@ a.navbar-item.is-active,
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.berita {
+    max-width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+}
+
 .background-bg-group {
     background-image: url('../img/video-up.svg');
     background-size: cover;
@@ -257,17 +264,31 @@ a.navbar-item.is-active,
     background: white;
 }
 
-.text-12px {
-    font-size: 12px;
-}
-
 .white {
     background-color: white;
+}
+
+.text-12px {
+    font-size: 12px;
 }
 
 .text-normal {
     color: rgb(101, 113, 114);
     font-size: 15px;
+}
+
+.text-title {
+    font-size: 18px;
+}
+
+.text-link {
+    font-size: 16px;
+    color: #255bb3;
+    cursor: pointer;
+}
+
+.text-link:hover {
+    color: #0a295c;
 }
 
 .flex {
@@ -748,6 +769,18 @@ a.navbar-item.is-active,
 
 .margin-right-120 {
     margin-right: 120px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
 }
 
 .pointer {
