@@ -1,0 +1,96 @@
+body,h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding:0;
+  overflow-x:hidden; 
+}
+.header-profile{
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.card-profile{
+  margin: -100px 0 0 80px;
+}
+.card-profile h1{
+  font-style: normal;
+font-weight: 550;
+font-size: 24px;
+line-height: 29px;
+}
+.card-profile p{
+  font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+}
+.card-profile .btn-edit{
+  background: #006097;
+border: 2px solid #98D8F4;
+box-sizing: border-box;
+border-radius: 5px;
+width: 191px;
+height: 33px;
+color: white;
+margin:25px 0 15px 0;
+}
+.card-profile .btn-tukar{
+  background: #FFFFFF;
+border: 2px solid #98D8F4;
+box-sizing: border-box;
+border-radius: 5px;
+width: 191px;
+height: 33px;
+}
+.desc-profile{
+  background: #FFFFFF;
+border: 1px solid #ACA9A9;
+box-sizing: border-box;
+border-radius: 10px;
+width: 518px;
+height: 150px;
+padding: 15px 0 15px 15px;
+margin: 30px auto 30px auto;
+}
+.desc-profile h2{
+  font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #484848;
+}
+.desc-profile p{
+  font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #C0C0C0;
+margin-top: 20px;
+}
+.profile-content{
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+background-color: white;
+width: 612px;
+height: 689px;
+padding: 32px 0 0 32px;
+}
+.flex{
+  display: flex;
+}
+.center{
+  align-items: center;
+}
+.isi-card-satu p{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #878787;
+}
+.isi-card-dua h4{
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 21px;
+}
+.isi-card-dua p{
+  font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #A3A3A3;
+}
