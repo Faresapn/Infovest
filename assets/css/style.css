@@ -291,7 +291,7 @@ a.navbar-item.is-active,
 
 .text-normal {
     color: rgb(101, 113, 114);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .text-title {
@@ -827,11 +827,36 @@ a.navbar-item.is-active,
     color: #6493EB;
 }
 
-.ccl-btn {
+.jwb-btn {
     border-radius: 5px;
-    background-color: #EFEFEF;
+    background-color: #6493EB;
     width: 80px;
-    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    padding: 3px 20px;
+    border: none;
+    color: white;
+}
+
+.jwb-btn:hover {
+    background-color: #255bb3;
+}
+
+.jwbn-btn {
+    background-color: #EFEFEF;
+    width: 100px;
+    cursor: pointer;
+    padding: 3px 20px;
+    height: 30px;
+    border: none;
+    color: #3273dc;
+    border: 1px solid #6493EB;
+    border-radius: 5px;
+}
+
+.jwbn-btn:hover {
+    border: 1px solid;
+    color: #C6C6C6;
 }
 
 .acc-btn {
@@ -854,6 +879,7 @@ a.navbar-item.is-active,
     width: 70px;
     cursor: pointer;
     height: 30px;
+    text-align: center;
     border: none;
     float: right;
     color: #C6C6C6;
