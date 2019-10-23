@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: #dedede;
+	font-family: 'Helvetica', arial, sans-serif;
+
+	font-size: 15px;
+}
+
+p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+h3{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #aaa;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: #666;
+}
+
+
+.container{
+	max-width: 1080px;
+	margin: 20px auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+.header{
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Main */
+	.left{
+		width: 250px;
+		border: 1px solid #dedede;
+		background: #e5e5e5;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 500px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+		.middle img{
+			max-width: 100%;
+			height: auto;
+		}
+
+		.middle a{
+			font-weight: bold;
+		}
+
+	.right{
+		width: 250px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+
+	.right ul{
+		list-style-type: none;
+	}
+	.right ul li{
+		display: block;
+	}
+	.right ul li a{
+		display: block;
+		border-bottom: 1px solid #dedede;
+		margin-bottom: 10px;
+		padding: 10px 5px;
+	}
+	.right ul li a:hover{
+		color: orange;
+	}
+
+.footer{
+	clear: both;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+		background: #fff000;
+	}
+	.middle {
+		width: 68%;
+		float: right;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+
+
